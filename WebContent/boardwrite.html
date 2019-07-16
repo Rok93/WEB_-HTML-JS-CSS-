@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>게시물 글쓰기</title>
+</head>
+<body>
+<h2>글쓰기 화면</h2>
+<form action="boardwrite.jsp">
+	제목입력: <input type="text" id="title"><br><br>
+	내용입력: <textarea rows="10" cols="40" id="contents" ></textarea><br><br>
+	작성자입력: <input type="text" id="writer" value="jdbc" readonly><br><br>
+	작성시간: <input type="datetime-local" ><br><br>
+	<input type="submit" value="글쓰기"> &nbsp; <input type="reset" value="취소">
+</form>
+</body>
+</html>

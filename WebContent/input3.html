@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<from action="">
+		이메일<input type="email" name="email"
+		value="111@a.com" readonly><br> <!-- 읽기만 하고 수정하지마라!! -->
+		홈페이지주소 <input type="url" name="url"><br>
+		폰번호 <input type="tel" name="tel" 
+		placeholder="###-####-#### 입력"
+		pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
+		><br>  <!-- 양식에 맞는지 패턴 검사를 할려고 한다. [ ] 안에는 표현 요소 / {} 그 요소가 몇개 0~9까지 3자리 - 0~9까지 4자리 - 0~9까지 4자리 오세요! -->
+		색상 <input type="color" name="color"><br>
+		지역시간 <input type="datetime-local" name="time"><br>
+		범위 <input type="range" name="range"><br>
+		<input type=submit value="전송">
+	</from>
+</body>
+</html>

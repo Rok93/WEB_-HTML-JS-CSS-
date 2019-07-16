@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="boardconditionlist.jsp">
+검색 조건: 
+<input type="radio" name="condition" value="제목">제목
+<input type="radio" name="condition" value="내용">내용
+<input type="radio" name="condition" value="작성자">작성자
+<input type="radio" name="condition" value="모두">모두<br>
+검색어:
+<input type="text" id=search>
+&nbsp;
+<input type="submit" value="조건검색">
+</form>
+
+<form action="boardpagelist.jsp">
+
+게시물페이지:
+	<select>
+		<option>1페이지</option>	
+		<option>2페이지</option>
+		<option>3페이지</option>	
+		<option>4페이지</option>	
+		<option>5페이지</option>	
+	</select>
+	&nbsp;
+	<input type="submit" value="페이지검색">
+</form>
+</body>
+</html>
